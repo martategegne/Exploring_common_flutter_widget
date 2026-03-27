@@ -36,3 +36,18 @@ Key Concepts: TextField, ElevatedButton, and managing user input via controllers
 Widget Tree Highlights:
 
 Form -> Padding -> Column -> [TextField, ElevatedButton]
+
+
+Documentation (Visuals)
+Every lab folder includes a /screenshots directory containing:
+
+Running App: A real-time preview of the UI on an emulator or physical device.
+
+Widget Tree: A visualization from the Flutter DevTools Inspector showing the hierarchy of nested widgets.
+
+Tech Stack
+Framework: Flutter (Latest Stable)
+
+Language: Dart
+
+Tools: VS Code / Android Studio, Git, flutter sdk
