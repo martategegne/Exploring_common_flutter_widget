@@ -64,3 +64,13 @@ Tools: VS Code / Android Studio, Git, flutter sdk
 Each project folder includes a dedicated .gitignore file to ensure that auto-generated build files and binaries are excluded from the version control, keeping the repository lightweight and focused on source code.
 
 
+Security Measures
+To ensure code integrity and project security, the following measures have been implemented:
+
+Access Control: Repository is set to restricted write access; only authorized contributors can merge code.
+
+Branch Protection: The main branch requires a Pull Request and status checks before merging.
+
+Secret Management: .gitignore is utilized to prevent sensitive build artifacts from being exposed.
+
+Dependency Scanning: Dependabot is enabled to monitor for vulnerabilities in Flutter/Dart packages.
