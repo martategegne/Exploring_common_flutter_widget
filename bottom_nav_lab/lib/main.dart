@@ -29,6 +29,7 @@ class _MainScreenState extends State<MainScreen> {
     HomeScreen(),
     FavoritesScreen(),
     ProfileScreen(),
+    ProfileScreen(),
   ];
 
   void _onItemTapped(int index) {
