@@ -50,4 +50,12 @@ Framework: Flutter (Latest Stable)
 
 Language: Dart
 
-Tools: VS Code / Android Studio, Git, flutter sdk
+Tools: VS Code / Android Studio, Git, flutter sdk## Student Information
+
+| Property | Details |
+| :--- | :--- |
+| **Name** | Marta Tegegne |
+| **UGR Number** | ugr/4457/16 |
+| **Section** | 1 |
+
+
