@@ -50,7 +50,9 @@ Framework: Flutter (Latest Stable)
 
 Language: Dart
 
-Tools: VS Code / Android Studio, Git, flutter sdk## Student Information
+Tools: VS Code / Android Studio, Git, flutter sdk
+
+## Student Information
 
 | Property | Details |
 | :--- | :--- |
