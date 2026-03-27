@@ -60,4 +60,7 @@ Tools: VS Code / Android Studio, Git, flutter sdk
 | **UGR Number** | ugr/4457/16 |
 | **Section** | 1 |
 
+**About .gitignore**
+Each project folder includes a dedicated .gitignore file to ensure that auto-generated build files and binaries are excluded from the version control, keeping the repository lightweight and focused on source code.
+
 
