@@ -74,3 +74,64 @@ Branch Protection: The main branch requires a Pull Request and status checks bef
 Secret Management: .gitignore is utilized to prevent sensitive build artifacts from being exposed.
 
 Dependency Scanning: Dependabot is enabled to monitor for vulnerabilities in Flutter/Dart packages.
+## flutter routing
+
+This project demonstrates how to implement navigation in Flutter using the GoRouter package. It includes:
+
+Basic navigation between screens
+Passing path parameters (e.g., product ID)
+Using query parameters (e.g., filters)
+Clean and scalable routing setup
+#### Features
+Navigate from Home screen to Product Details
+Dynamic route handling (/product/:id)
+Query parameter support (?filter=popular)
+Simple and maintainable routing structure
+
+#### package
+go_router package is used
+## Flutter Routing Approaches
+-Navigator 1.0 (Traditional Routing)
+Navigator.push(
+  context,
+  MaterialPageRoute(builder: (context) => ProductDetailScreen()),
+);
+#### Pros
+Simple and easy to learn
+Built-in (no extra package)
+Good for small apps
+#### Cons
+Hard to manage in large apps
+No URL support (bad for web)
+Difficult to handle deep linking
+
+## Navigator 2.0 (Advanced / Declarative)
+
+#### Pros
+Full control over navigation
+Supports web URLs and deep linking
+Very powerful
+#### Cons
+Very complex
+Too much boilerplate
+Hard for beginners
+
+## GoRouter (Modern & Recommended)
+GoRoute(
+  path: '/product/:id',
+  builder: (context, state) => ProductDetailScreen(),
+);
+#### Pros
+Simple and clean
+Supports:
+URL routing
+deep linking
+parameters
+Less boilerplate than Navigator 2.0
+Officially recommended by Flutter team
+#### Cons
+Requires external package
+Slight learning curve
+
+## Best Choice: GoRouter
+.Combines simplicity (Navigator 1.0) + power (Navigator 2.0)
